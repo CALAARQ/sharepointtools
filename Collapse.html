@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #174DC1;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #6AF034;
+  font-weight: bold; 
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<button type="button" class="collapsible">Meaning</button>
+<div class="content">
+  <p>The meaning of the phrase originates from the concept that out of the union of the original Thirteen Colonies emerged a new single nation.[8] It is emblazoned across the scroll and clenched in the eagle's beak on the Great Seal of the United States.[8][9]
+</p>
+</div>
+<button type="button" class="collapsible">Origins</button>
+<div class="content">
+  <p>The thirteen-letter motto was suggested in 1776 by Pierre Eugene du Simitiere to the committee responsible for developing the seal. At the time of the American Revolution, the phrase appeared regularly on the title page of the London-based Gentleman's Magazine, founded in 1731,[10][11] which collected articles from many sources into one periodical. This usage in turn can be traced back to the London-based Huguenot Peter Anthony Motteux, who had employed the adage for his The Gentleman's Journal, or the Monthly Miscellany (1692–1694). The phrase is similar to a Latin translation of a variation of Heraclitus's tenth fragment, "The one is made up of all things, and all things issue from the one" (?? p??t?? ?? ?a? ?? ???? p??ta). A variant of the phrase was used in "Moretum", a poem belonging to the Appendix Virgiliana, describing (on the surface at least) the making of moretum, a kind of herb and cheese spread related to modern pesto. In the poem text, color est e pluribus unus describes the blending of colors into one. St Augustine used a variant of the phrase, ex pluribus unum, in his Confessions. But it seems more likely that the phrase refers to Cicero's paraphrase of Pythagoras in his De Officiis, as part of his discussion of basic family and social bonds as the origin of societies and states: "When each person loves the other as much as himself, it makes one out of many (unus fiat ex pluribus), as Pythagoras wishes things to be in friendship."[12]
+
+While Annuit cœptis ("He favors our undertakings") and Novus ordo seclorum ("New order of the ages") appear on the reverse side of the great seal, E pluribus unum appears on the obverse side of the seal (designed by Charles Thomson), the image of which is used as the national emblem of the United States, and appears on official documents such as passports. It also appears on the seal of the President and in the seals of the Vice President of the United States, of the United States Congress, of the United States House of Representatives, of the United States Senate and on the seal of the United States Supreme Court.
+p>
+</div>
+<button type="button" class="collapsible">Usage on coins</button>
+<div class="content">
+  <p>The first coins with E pluribus unum were dated 1786 and struck under the authorization of the State of New Jersey by Thomas Goadsby and Albion Cox in Rahway, New Jersey.[13] The motto had no New Jersey linkage but was likely an available die that had been created by Walter Mould the previous year for a failed federal coinage proposal.[14] Walter Mould was also authorized by New Jersey to strike state coppers with this motto and did so beginning in early 1787 in Morristown, New Jersey. Lt. Col. Seth Read of Uxbridge, Massachusetts was said to have been instrumental in having E pluribus unum placed on U.S. coins.[15] Seth Read and his brother Joseph Read had been authorized by the Massachusetts General Court to mint coppers in 1786. In March 1786, Seth Read petitioned the Massachusetts General Court, both the House and the Senate, for a franchise to mint coins, both copper and silver, and "it was concurred".[16][17] E pluribus unum, written in capital letters, is included on most U.S. currency, with some exceptions to the letter spacing (such as the reverse of the dime). It is also embossed on the edge of the dollar coin. (See United States coinage and paper bills in circulation).
+
+According to the U.S. Treasury, the motto E pluribus unum was first used on U.S. coinage in 1795, when the reverse of the half-eagle ($5 gold) coin presented the main features of the Great Seal of the United States. E pluribus unum is inscribed on the Great Seal's scroll. The motto was added to certain silver coins in 1798, and soon appeared on all of the coins made out of precious metals (gold and silver). In 1834, it was dropped from most of the gold coins to mark the change in the standard fineness of the coins. In 1837, it was dropped from the silver coins, marking the era of the Revised Mint Code. An Act of February 12, 1873, made the inscription a requirement of law upon the coins of the United States. E pluribus unum appears on all U.S. coins currently being manufactured, including the Presidential dollars that started being produced in 2007, where it is inscribed on the edge along with "In God We Trust" and the year and mint mark. After the revolution, Rahway, New Jersey became the home of the first national mint to create a coin bearing the inscription E pluribus unum.
+
+In a quality control error in early 2007 the Philadelphia Mint issued some one-dollar coins without E pluribus unum on the rim; these coins have since become collectibles.
+
+The 2009 and new 2010 penny features a new design on the back, which displays the phrase E pluribus unum in larger letters than in previous years.[1]
+p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
